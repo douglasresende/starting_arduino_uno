@@ -1,7 +1,6 @@
 # Setup
 
 ![Setup Test 01](setup_test_01.jpg)
-![Setup Test 01](https://raw.githubusercontent.com/douglasresende/starting_arduino_uno/master/esp8266/test_01/setup_test_01.jpg)
 
 ## Descrição:
 
