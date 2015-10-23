@@ -15,15 +15,16 @@
 
 Observe que neste repositório existe o diretório "Blink" e dentro dele, existe o arquivo "Blink.ino". Este arquivo não é diferente em nada do Exemplo encontrado na IDE do Arquino, no submenu "esp8266".
 
-## Setup de IDE e Exemplo de Upload de Sketch:
+## Setup da Board do ESP8266 e Exemplos de Upload de Sketch:
 
 https://www.youtube.com/watch?v=xi2s1P57XPE
 
 ## Dicas:
 
-1. Antes de qualquer atividade, sempre ligue fios "GND" nas placas
-2. Primeiramente ligue o FTDI no computador, logo após, ligue o Arduino. Se você ligar o Arduino primeiro, o FTDI recebe algum tipo carga pelo GND e acende um Led muito fraco e por algum outro motivo, nessa sequência, não se comunica com o ESP8266.
-3. Não recomendo ligar o VCC no FTDI para alimentar o ESP8266, meu ESP8266 começou a esquentar e não consegui encontrar a rede WiFi da placa; Acredito que seja pouca amperagem.
+1. Antes de qualquer atividade, sempre dê prioridade em ligar os fios "GND".
+2. Primeiramente ligue o FTDI no computador, logo após, ligue o Arduino. Se você ligar o Arduino primeiro, o FTDI recebe algum tipo carga pelo GND e acende um Led (no ftdi) muito fraco e por algum outro motivo, nessa sequência, não se comunica com o ESP8266.
+3. Não recomendo ligar o VCC no FTDI para alimentar o ESP8266 (eliminando o uso do Arduino neste caso), meu ESP8266 começou a esquentar e não consegui encontrar a rede WiFi da placa; Acredito que seja pouca amperagem.
+4. Você pode substituir o Arduino por diversas outras opções de alimentação que possam prover 3.3V para a placa do ESP8266. Veja os Links de Referência deste tutorial e estude as posibilidades.
 
 ## Referências:
 
